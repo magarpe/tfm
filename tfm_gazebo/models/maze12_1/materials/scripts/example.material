@@ -1,11 +1,11 @@
-material GrassTest{
+material BricksTest{
     technique
     {
         pass
         {
             texture_unit
             {
-                texture grass.jpg
+                texture bricks.jpg
                 scale 1 1
             }
         }   

@@ -260,8 +260,9 @@
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
     </state>
+    
     <model name='maze12_1'>
-      <pose frame=''>-0.126045 -0.910051 0 0 -0 0</pose>
+      <pose frame=''>0 0 0 0 0 0</pose>
       <link name='Wall_0'>
         <collision name='Wall_0_Collision'>
           <geometry>
@@ -1428,6 +1429,7 @@
       </link>
       <static>1</static>
     </model>
+    
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose frame=''>17.0477 11.03 9.75296 0 0.378796 -2.59479</pose>
