@@ -1,6 +1,0 @@
-Symlinking /home/marina/ccmslam_ws/devel/lib/libccmslam_lib.so
-Symlinking /home/marina/ccmslam_ws/devel/lib/ccmslam/ccmslamClientNode
-Symlinking /home/marina/ccmslam_ws/devel/lib/ccmslam/ccmslamServerNode
-Symlinking /home/marina/ccmslam_ws/devel/lib/pkgconfig/ccmslam.pc
-Symlinking /home/marina/ccmslam_ws/devel/share/ccmslam/cmake/ccmslamConfig.cmake
-Symlinking /home/marina/ccmslam_ws/devel/share/ccmslam/cmake/ccmslamConfig-version.cmake

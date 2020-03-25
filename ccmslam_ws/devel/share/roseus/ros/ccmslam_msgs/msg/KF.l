@@ -1,1 +1,0 @@
-/home/marina/ccmslam_ws/devel/.private/ccmslam_msgs/share/roseus/ros/ccmslam_msgs/msg/KF.l

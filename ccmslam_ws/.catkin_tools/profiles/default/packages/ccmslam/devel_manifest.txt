@@ -1,8 +1,0 @@
-ccm_slam/cslam
-/home/marina/ccmslam_ws/devel/.private/ccmslam/cmake.lock /home/marina/ccmslam_ws/devel/./cmake.lock
-/home/marina/ccmslam_ws/devel/.private/ccmslam/lib/libccmslam_lib.so /home/marina/ccmslam_ws/devel/lib/libccmslam_lib.so
-/home/marina/ccmslam_ws/devel/.private/ccmslam/lib/ccmslam/ccmslamClientNode /home/marina/ccmslam_ws/devel/lib/ccmslam/ccmslamClientNode
-/home/marina/ccmslam_ws/devel/.private/ccmslam/lib/ccmslam/ccmslamServerNode /home/marina/ccmslam_ws/devel/lib/ccmslam/ccmslamServerNode
-/home/marina/ccmslam_ws/devel/.private/ccmslam/lib/pkgconfig/ccmslam.pc /home/marina/ccmslam_ws/devel/lib/pkgconfig/ccmslam.pc
-/home/marina/ccmslam_ws/devel/.private/ccmslam/share/ccmslam/cmake/ccmslamConfig.cmake /home/marina/ccmslam_ws/devel/share/ccmslam/cmake/ccmslamConfig.cmake
-/home/marina/ccmslam_ws/devel/.private/ccmslam/share/ccmslam/cmake/ccmslamConfig-version.cmake /home/marina/ccmslam_ws/devel/share/ccmslam/cmake/ccmslamConfig-version.cmake
