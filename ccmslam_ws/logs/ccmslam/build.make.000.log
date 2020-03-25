@@ -1,0 +1,339 @@
+[35m[1mScanning dependencies of target ccmslam_msgs_generate_messages_cpp[0m
+[  0%] Built target ccmslam_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target ccmslam_lib[0m
+[  3%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/config.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/CentralControl.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/ClientHandler.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Communicator.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Converter.cc.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Communicator.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:42[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/CentralControl.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:42[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/ClientHandler.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 20%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Database.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Frame.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Initializer.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/KeyFrame.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Database.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Frame.h:39[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Frame.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Initializer.h:35[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Initializer.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/KeyFrame.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 34%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/LoopFinder.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Map.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/MapMatcher.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:42[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/LoopFinder.h:48[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/LoopFinder.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 44%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/MapMerger.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:46[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Map.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/LoopFinder.h:56[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/MapMatcher.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:42[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMerger.h:42[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/MapMerger.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 48%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Mapping.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/MapPoint.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Optimizer.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:42[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:37[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Mapping.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 58%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/ORBextractor.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/MapPoint.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Optimizer.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 62%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/ORBmatcher.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/PnPSolver.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Sim3Solver.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Frame.h:39[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ORBmatcher.h:71[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/ORBmatcher.cpp:59[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Frame.h:39[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/PnPSolver.h:68[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/PnPSolver.cpp:53[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Sim3Solver.h:11[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Sim3Solver.cpp:1[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 72%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Tracking.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ccmslam_lib.dir/src/Viewer.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Frame.h:39[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ORBmatcher.h:71[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Tracking.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Tracking.cpp:26[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Frame.h:39[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ORBmatcher.h:71[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Tracking.h:43[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Viewer.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/Viewer.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 79%] [32m[1mLinking CXX shared library /home/marina/ccmslam_ws/devel/.private/ccmslam/lib/libccmslam_lib.so[0m
+[ 79%] Built target ccmslam_lib
+[35m[1mScanning dependencies of target ccmslamServerNode[0m
+[35m[1mScanning dependencies of target ccmslamClientNode[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/ccmslamServerNode.dir/src/server/ServerSystem.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/ccmslamServerNode.dir/src/server/ServerNode.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/ccmslamClientNode.dir/src/client/ClientNode.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ccmslamClientNode.dir/src/client/ClientSystem.cpp.o[0m
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/client/ClientSystem.h:46[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/client/ClientSystem.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:46[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/server/ServerSystem.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/server/ServerSystem.cpp:25[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:58[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:46[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Map.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/server/ServerSystem.h:45[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/server/ServerNode.cpp:26[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Optimizer.h:47:0[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapMatcher.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Mapping.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/ClientHandler.h:47[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/CentralControl.h:38[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Communicator.h:52[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/MapPoint.h:41[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/KeyFrame.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/Database.h:40[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/include/cslam/client/ClientSystem.h:46[m[K,
+                 from [01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/src/client/ClientNode.cpp:26[m[K:
+[01m[K/home/marina/ccmslam_ws/src/ccm_slam/cslam/thirdparty/g2o/g2o/solvers/linear_solver_eigen.h:45:50:[m[K [01;36m[Knote: [m[K#pragma message: g2o: Ubuntu 16 configuration
+ #pragma message ( "g2o: Ubuntu 16 configuration" )
+[01;32m[K                                                  ^[m[K
+[ 96%] [32m[1mLinking CXX executable /home/marina/ccmslam_ws/devel/.private/ccmslam/lib/ccmslam/ccmslamClientNode[0m
+[100%] [32m[1mLinking CXX executable /home/marina/ccmslam_ws/devel/.private/ccmslam/lib/ccmslam/ccmslamServerNode[0m
+[100%] Built target ccmslamClientNode
+[100%] Built target ccmslamServerNode
