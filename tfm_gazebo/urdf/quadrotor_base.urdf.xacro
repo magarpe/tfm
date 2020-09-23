@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 <robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
 xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
@@ -7,7 +7,7 @@ xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:include filename="$(find cvg_sim_gazebo_plugins)/urdf/quadrotor_plugins.urdf.xacro" />
 
   <!-- Main quadrotor link -->
-  <xacro:macro name="quadrotor_base_macro">
+  <xacro:macro name="quadrotor_base_macro" params="ns">
     <link name="base_link">
       <inertial>
         <mass value="1.477" />
@@ -18,14 +18,14 @@ xmlns:xacro="http://ros.org/wiki/xacro">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cvg_sim_gazebo/meshes/quadrotor/quadrotor_4.dae"/>
+          <mesh filename="package://tfm_gazebo/meshes/quadrotor/quadrotor_4.dae"/>
         </geometry>
       </visual>
 
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cvg_sim_gazebo/meshes/quadrotor/quadrotor_4.stl"/>
+          <mesh filename="package://tfm_gazebo/meshes/quadrotor/quadrotor_4.stl"/>
         </geometry>
       </collision>
     </link>
@@ -37,6 +37,6 @@ xmlns:xacro="http://ros.org/wiki/xacro">
     </gazebo>
 
     <!-- Gazebo Plugins -->
-    <quadrotor_plugins/>
+    <quadrotor_plugins ns="${ns}"/>
   </xacro:macro>
 </robot>

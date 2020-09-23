@@ -20,7 +20,7 @@ xmlns:xacro="http://ros.org/wiki/xacro">
 	  <origin xyz="0 0 0" rpy="0 0 0" />
           <geometry>
           
-          <mesh filename="package://cvg_sim_gazebo/meshes/hokuyo_utm30lx/hokuyo_utm_30lx$(optenv TEST_SELF_FILTER).dae"/>
+          <mesh filename="package://tfm_gazebo/meshes/hokuyo_utm30lx/hokuyo_utm_30lx$(optenv TEST_SELF_FILTER).dae"/>
         </geometry>
 	</visual>
 	<collision>

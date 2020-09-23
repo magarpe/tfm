@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 <robot name="quadrotor"
     xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
@@ -6,9 +6,9 @@
 xmlns:xacro="http://ros.org/wiki/xacro">
 
     <!-- Included URDF Files -->
-    <xacro:include filename="$(find cvg_sim_gazebo)/urdf/quadrotor_base.urdf.xacro" />
+    <xacro:include filename="$(find tfm_gazebo)/urdf/quadrotor_base.urdf.xacro" />
     
     <!-- Instantiate quadrotor_base_macro once (has no parameters atm) -->
-    <quadrotor_base_macro />
+    <quadrotor_base_macro ns="${ns}"/>
 
 </robot>

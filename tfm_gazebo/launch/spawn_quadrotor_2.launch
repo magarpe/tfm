@@ -2,16 +2,17 @@
 
 
  <launch>
-   <arg name="model" default="$(find tfm_gazebo)/urdf/quadrotor.urdf.xacro"/>
+   <arg name="model" default="$(find tfm_gazebo)/urdf/quadrotor_sensors.urdf.xacro"/>
+    <arg name="Quadname" default="ardrone"/>
    <arg name="x" default="0"/>
    <arg name="y" default="0"/>
    <arg name="z" default="0.5"/>
    <arg name="R" default="0"/>
    <arg name="P" default="0"/>
    <arg name="Y" default="0"/>
-   <!-- send the robot XML to param server -->
-   <param name="robot_description" command="$(find xacro)/xacro '$(arg model)' --inorder" />
-   
+   <!-- send the robot XML to param server --> 
+   <param name="robot_description" command="$(find xacro)/xacro '$(arg model)' --inorder ns:=$(arg Quadname)"/>
+    
    <!-- push robot_description to factory and spawn robot in gazebo -->
    <node name="spawn_robot" pkg="gazebo_ros" type="spawn_model"
    args="-param robot_description
@@ -22,7 +23,7 @@
    -R '$(arg R)'
    -P '$(arg P)'
    -Y '$(arg Y)'
-   -model quadrotor2"
+   -model '$(arg Quadname)'"
      respawn="false" output="screen"/>
      
    <!-- start robot state publisher -->
