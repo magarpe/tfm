@@ -8,8 +8,8 @@
 
   <!-- Spawn simulated quadrotor uav -->
   <include file="$(find tfm_gazebo)/launch/spawn_quadrotor.launch" >
-    <arg name="x" value="-5.5"/>
-    <arg name="y" value="7"/>
+    <arg name="x" value="-7.5"/>
+    <arg name="y" value="10"/>
     <arg name="Y" value="-1.5"/>
     <arg name="model" value="$(find tfm_gazebo)/urdf/quadrotor_sensors.urdf.xacro"/> 
   </include>

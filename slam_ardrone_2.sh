@@ -11,14 +11,25 @@
 echo VISUALIZATION-RVIZ, LAUNCH AND ROSBAGS
 
 gnome-terminal \
-  --tab -e 'bash -c "roslaunch ccmslam Server_2.launch"' \
-  --tab -e 'bash -c "rviz -d ~/rviz_upview.rviz"' \
+  --tab -e 'bash -c "roslaunch ccmslam Server.launch"' \
   --tab -e 'bash -c "roslaunch ccmslam Client0_ardrone.launch"' \
   --tab -e 'bash -c "roslaunch ccmslam Client1_ardrone.launch"' \
-  --tab -e 'bash -c "rosbag play ~/1.bag /ground_truth/state:=/ground_truth/state_0 /ardrone/front/image_raw:=/ardrone/front/image_raw_0"' \
-  --tab -e 'bash -c "rosbag play ~/2.bag /ground_truth/state:=/ground_truth/state_1 /ardrone/front/image_raw:=/ardrone/front/image_raw_1"' \
-#  --tab -e 'bash -c "rosrun ccmslam sensor_node.py"'\
-#  --tab -e 'bash -c "rqt"'
+  --tab -e 'bash -c "rviz -d ~/rviz_upview.rviz"' \
+  --tab -e 'bash -c "rqt"' \
+  --tab -e 'bash -c "rosrun ccmslam sensor_node.py"'\
+
+sleep 15s
+
+gnome-terminal \
+  --tab -e 'bash -c "rosbag play ~/2.bag --start 10 /ground_truth/state:=/ground_truth/state_1 /ardrone/front/image_raw:=/ardrone/front/image_raw_1"' \
+  --tab -e 'bash -c "rosbag play ~/1.bag  --start 5 /ground_truth/state:=/ground_truth/state_0 /ardrone/front/image_raw:=/ardrone/front/image_raw_0"' \
+
+# CON GT
+#   --tab -e 'bash -c "rosbag play ~/2_1.bag /ground_truth/state:=/ground_truth/state_1 /ardrone/front/image_raw:=/ardrone/front/image_raw_1"' \
+#   --tab -e 'bash -c "rosbag play ~/1.bag /ground_truth/state:=/ground_truth/state_0 /ardrone/front/image_raw:=/ardrone/front/image_raw_0"' \
+  
+  # --tab -e 'bash -c "rosbag play ~/bag/euro/MH_02_easy.bag --start 35 /cam0/image_raw:=/ardrone/front/image_raw_1"' \
+  # --tab -e 'bash -c "rosbag play ~/bag/euro/MH_01_easy.bag --start 45 /cam0/image_raw:=/ardrone/front/image_raw_0"' \
 
 #--tab -e 'bash -c "rosbag play ~/2020-09-29-16-00-00.bag.active"'
 
